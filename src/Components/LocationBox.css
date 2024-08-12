@@ -1,0 +1,61 @@
+.LocationBox {
+    height: 350px;
+}
+
+.LocationBox-picNav {
+    position: relative;
+    width: 100%;
+}
+
+.LocationBox-picNav-wrapper img {
+    flex: none;
+    max-width: 100%;
+}
+
+.LocationBox-picNav-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 260px;
+    overflow: hidden;
+    background-color: grey;
+    border-radius: 15px;
+}
+
+.LocationBox-picNav-arrow {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.LocationBox-picNav-arrow--left {
+    left: 0;
+}
+
+.LocationBox-picNav-arrow--right {
+    right: 0;
+}
+
+.LocationBox-picNav-arrow:hover {
+    cursor: pointer;
+}
+
+.LocationBox-NameRating {
+    flex-direction: row;
+    display: flex;
+}
+
+.LocationBox-NameRating p {
+    width: 70%;
+}
+
+.LocationBox-SeeMore {
+    width: 100%;
+    display: block;
+    text-align: right;
+    text-decoration: underline;
+}
+.LocationBox-SeeMore:hover {
+    cursor: pointer;
+}

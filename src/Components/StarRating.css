@@ -1,0 +1,33 @@
+.stars {
+    position: relative;
+    float: left;
+    font-size: 20pt;
+	  height: 1em;
+    line-height: 1em;
+    z-index: 1;
+}
+
+.stars:before {	
+    content: "\2606\2606\2606\2606\2606";
+    float: left;
+    z-index: 2;
+}
+
+.stars .percent {
+    position: absolute;
+    left: 0;
+    float: left;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.stars .percent:after {	
+    content: "\2605\2605\2605\2605\2605";
+    color: rgb(255, 200, 0);
+}
+
+.stars-wrapper {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
